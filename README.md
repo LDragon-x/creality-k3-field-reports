@@ -8,7 +8,7 @@ This repository is not affiliated with Creality. It exists because two hardware/
 
 | # | Date | Report | Summary |
 |---|---|---|---|
-| 1 | 2026-10-16/18 | [Silent klippy crash](2026-10-16_silent-klippy-crash.md) | Klippy process dies mid-print with no error, no traceback, no notification — twice in 5 days, across two firmware versions (4.0.2.88.13 → 4.0.3.1.5). Interrupted job recorded as "complete". |
+| 1 | 2026-10-16/18 | [Silent klippy crash](2026-10-16_silent-klippy-crash.md) | Klippy process dies mid-print with no error, no traceback, no notification — three times in 3 days, across two firmware versions (4.0.2.88.13 → 4.0.3.1.5). Interrupted job recorded as "complete". Also documents a chronic MCU serial-corruption defect (36,525 protocol errors/day, live in standby). |
 | 2 | 2026-10-17 | [Chamber camera USB storm](2026-10-17_camera-usb-storm.md) | Stock chamber camera enters a disconnect→re-enumerate loop (~16 s cycle, 100+ cycles over 2 days) once chamber temp passes ~36 °C — far above the 30 °C limit Creality documents for this camera system. Print unaffected; camera never recovers without reboot. |
 
 ## Key facts at a glance
